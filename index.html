@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="IE-Edge">
+	<title>DOM Activity 3</title>
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- font awesome -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<!-- google fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+	<header> <h1>TUITT CODING BOOTCAMP</h1></header>
+
+	<main>
+		<div class="main-dashboard">
+	 			<h3 class="inline-blocked"><i class="fas fa-home" aria-hidden="true"></i> Dashboard</h3>
+
+						<div class="dashboard-thumbnail">
+					
+						<div id="post-circle" class="dashboard-circles">
+							<i class="far fa-file" aria-hidden="true"></i>
+						</div> <!-- circle -->
+							<div class="inline-blocked">
+								<p class="dashboard-text">5</p>
+								<p class="dashboard-text">posts</p>
+					 		</div>
+						</div>	<!-- left side -->
+						<div class="dashboard-thumbnail">
+							<div id="image-circle" class="dashboard-circles">
+							<i class="fas fa-images" aria-hidden="true"></i>
+						</div> <!-- circle -->
+							<div class= "inline-blocked">
+								<p class="dashboard-text">13</p>
+								<p class="dashboard-text">images</p>
+							</div>
+						</div> <!-- right side -->
+		</div> <!-- end dashboard -->
+
+		<div>
+			<h3><i class="fas fa-file-medical"></i> New Post</h3>
+			<form class="hide-overflow">
+				<input id="post-title" type="text" name="post-title" placeholder="enter your post title here">
+
+				<textarea id="post-content" placeholder="enter your content here"></textarea>
+
+				<button id="button-publish" class="btn btn-blue" type="submit" name="button">Publish</button>
+			</form>
+		</div> <!-- end new post -->
+
+		<div>
+			<h3><i class="fas fa-cloud-upload-alt" aria-hidden="true"></i> Upload Image</h3>
+			<div class="images img-set-holder">
+				<img  class="img-set" src="assets/images/food.jpg" alt="food">
+				<img  class="img-set" src="assets/images/basketball-player.jpg" alt="lebron">
+				<img  class="img-set" src="assets/images/basketball.jpg" alt="ball">
+				<img  class="img-set" src="assets/images/cat.jpg" alt="cat">
+				<img  class="img-set" src="assets/images/fish.jpg" alt="fish">
+			</div> <!-- image gallery -->
+			
+			<form class="hide-overflow">
+				
+				<button id="btn-browse" class="btn btn-blue" type="button">browse</button>
+
+				<button id="btn-upload" class="btn btn-green" type="button">upload</button>
+				
+			</form>
+
+			
+		
+		</div> <!-- end upload image -->
+
+	</main> <!-- end main -->
+
+	<footer>
+		<p>Tuitt Coding Bootcamp &copy; 2018</p>
+	</footer>
+
+</div> <!-- end container -->
+
+
+</body>
+</html>
